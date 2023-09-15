@@ -1,0 +1,12 @@
+div > *{
+  margin: 8px 16px;
+}
+
+input {
+  background-color: #181A1D;
+  padding: 4px;
+}
+
+.container {
+  display: flex;
+}

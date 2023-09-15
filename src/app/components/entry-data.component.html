@@ -1,0 +1,18 @@
+<div class="container">
+  <!-- two way property bindig -->
+  <div>
+    <input type="text"
+      [value]='placeholder'
+      (input)='placeholder = $any($event.target).value'
+    />
+  <p>{{ placeholder }}</p>
+  </div>
+
+  <!-- two way property bindig (Diretiva do Angular) -->
+  <div>
+    <input type="text"
+      [(ngModel)]='placepass'
+    />
+  <p>{{ placepass }}</p>
+  </div>
+</div>

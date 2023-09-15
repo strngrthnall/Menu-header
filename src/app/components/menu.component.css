@@ -1,0 +1,19 @@
+h1 {
+  color: #fff;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2E3138;
+  border-bottom: #3b3f49 2px solid;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}

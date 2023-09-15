@@ -1,0 +1,14 @@
+<div class="header">
+  <h1>Main</h1>
+  <div class="menu">
+
+    <!-- Data Biding (associação de dados) -->
+    <!-- Interpolação -->
+    <button-component label="{{ buttonLabel }}"></button-component>
+    <button-component label="Vender"></button-component>    
+
+    <!-- Property binding (associação de propriedades) -->
+    <button-component [label]="buttonSecond"></button-component>
+    <button-component [color]="'#307655'" [label]="'Entrar'"></button-component>
+  </div>
+</div>

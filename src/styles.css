@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+* {
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #15181E;
+}
